@@ -1,42 +1,41 @@
 
-# Manuals and specifications
+# கையேடுகள் மற்றும் திட்ட விவரம்
 
-This book is a *tutorial*. It aims to help you gradually learn the language. But once you're familiar with the basics, you'll need other sources.
+இந்த புத்தகம் ஒரு *தனிமுறை கல்வி குறிப்பு* ஆகும். இது படிப்படியாக நிரலாக்க மொழியைக் (Programming Language) கற்றுக்கொள்ள உங்களுக்கு உதவுவதை நோக்கமாகக் கொண்டுள்ளது. நீங்கள் அடிப்படைகளை அறிந்தவுடன், உங்களுக்கு பிற மூல பாடங்கள் தேவைப்படும்.
 
-## Specification
+## திட்ட விவரம் (Specification)
 
-[The ECMA-262 specification](https://www.ecma-international.org/publications/standards/Ecma-262.htm) contains the most in-depth, detailed and formalized information about JavaScript. It defines the language.
+[ECMA-262 திட்ட விவரம்](https://www.ecma-international.org/publications/standards/Ecma-262.htm) ஜாவா ஸ்கிரிப்ட் (JavaScript - ஜாவா அச்சுருஎழுத்து) பற்றிய மிக ஆழமான, விரிவான மற்றும் முறைப்படுத்தப்பட்ட தகவல்களைக் கொண்டுள்ளது. இது நிரலாக்க மொழியை வரையறுக்கிறது.
 
-But being that formalized, it's difficult to understand at first. So if you need the most trustworthy source of information about the language details, the specification is the right place. But it's not for everyday use.
+அவ்வாறு முறைப்படுத்தப்பட்டிருந்தாலும், நேரடியாக புரிந்துகொள்ள கடினமாக இருக்கும். எனவே, நிரலாக்க மொழி விவரங்களைப் பற்றிய மிகவும் நம்பகமான தகவல்களை தெரிந்து கொள்ள திட்ட விவர குறிப்புகளே சரியான இடமாகும். ஆனால் இவற்றை அன்றாட பயன்பாட்டிற்கு பயன்படுத்த முடியாது.
 
-A new specification version is released every year. In-between these releases, the latest specification draft is at <https://tc39.es/ecma262/>.
+ஒவ்வொரு ஆண்டும் ஒரு புதிய திட்ட விவரப் பதிப்புரு (version) வெளியிடப்படுகிறது. இந்த வெளியீடுகளுக்கு இடையில், அண்மை கால திட்ட விவர வரைவை காண <https://tc39.es/ecma262/> இங்கே செல்லவும்.
 
-To read about new bleeding-edge features, including those that are "almost standard" (so-called "stage 3"), see proposals at <https://github.com/tc39/proposals>.
+கிட்டத்தட்ட தர அளவுப்படுத்தப்பட்ட ("நிலை 3" என்று அழைக்கப்படுகிறது) மற்றும் புதிய முன்னணி பண்புகளை (bleeding-edge features) பற்றி படிக்க, இங்கே உள்ள புத்தாய்வுத்திட்டங்களை <https://github.com/tc39/proposals> பார்க்கவும். 
 
-Also, if you're in developing for the browser, then there are other specs covered in the [second part](info:browser-environment) of the tutorial.
+மேலும், நீங்கள் உலாவி (browser) உருவாக்கும் பணியில் இருப்பவராக இருந்தால் , உங்களுக்காக பிற திட்ட விவரங்கள் இந்த தனிமுறை கல்வி குறிப்பின் (tutorial) [இரண்டாம் பக்கத்தில் (second part)](info:browser-environment)  கொடுக்கப்பட்டுள்ளன.
 
-## Manuals
+## கையேடுகள்
 
-- **MDN (Mozilla) JavaScript Reference** is a manual with examples and other information. It's great to get in-depth information about individual language functions, methods etc.
+- **எம்.டி.என்(MDN) (மொஸில்லா-Mozilla) ஜாவாஸ்கிரிப்ட் குறிப்பு** எடுத்துக்காட்டுகளுடன் கூடிய மற்றும் பிற தகவல்களை கொண்டுள்ள ஒரு கையேடு ஆகும். தனிப்பட்ட நிரலாக்க மொழி செயல்பாடுகள், முறைகள் (methods) மற்றும் பிற ஆழமான தகவல்களைத்  தெரிந்து கொள்வது மிகவும் நல்லது.
 
-    One can find it at <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference>.
+    அவைகளை இங்கே காணலாம் <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference>.
 
-    Although, it's often best to use an internet search instead. Just use "MDN [term]" in the query, e.g. <https://google.com/search?q=MDN+parseInt> to search for `parseInt` function.
+    இருப்பினும், அதற்கு பதிலாக இணைய தேடலைப் பயன்படுத்துவது சிறந்ததாக கருதப்படுகிறது. வினவலில் "MDN [term]" ஐப் பயன்படுத்தவும், எடுத்துக்காட்டாக `parseInt` என்ற செயல்பாட்டைத் தேட <https://google.com/search?q=MDN+parseInt>  இவ்வாறு குறிப்பிடவும்.
 
+- **எம்.எஸ்.டி.என் (MSDN)** - என்ற மைக்ரோசாஃப்ட் கையேடு, ஜாவாஸ்கிரிப்ட் (பெரும்பாலும் JScript என குறிப்பிடப்படுகிறது) உட்பட பல தகவல்களைக் கொண்டுள்ளது. இன்டர்நெட் எக்ஸ்ப்ளோரரை பற்றி குறிப்பிட்ட ஏதாவது ஒன்றை தெரிந்துகொள்ள, இங்கே செல்வது நல்லது: <http://msdn.microsoft.com/>.
 
-- **MSDN** – Microsoft manual with a lot of information, including JavaScript (often referred to as JScript). If one needs something specific to Internet Explorer, better go there: <http://msdn.microsoft.com/>.
+    மேலும், "RegExp MSDN" அல்லது "RegExp MSDN jscript" போன்ற சொற்றொடர்களுடன் இணைய தேடலைப் பயன்படுத்தலாம்.
 
-    Also, we can use an internet search with phrases such as "RegExp MSDN" or "RegExp MSDN jscript".
+## ஏற்புடைய அட்டவணைகள்
 
-## Compatibility tables
+ஜாவாஸ்கிரிப்ட் ஒரு வளரும் மொழி, புதிய அம்சங்கள் தொடர்ந்து சேர்க்கப்படுகின்றன.
 
-JavaScript is a developing language, new features get added regularly.
+உலாவி அடிப்படையிலான மற்றும் பிற உலாவி இயந்திரங்களில் இவற்றின் பயன்பாடு அல்லது ஏற்புடைய தன்மையை காண, இங்கே செல்லவும்:
 
-To see their support among browser-based and other engines, see:
+- <http://caniuse.com> - நவீன குறியாக்கவியல் செயல்பாட்டிற்கு ஏற்புடைய உலாவி இயந்திரத்தை கண்டறிய: <http://caniuse.com/#feat=cryptography>.
+- <https://kangax.github.io/compat-table> - நிரலாக்க மொழியின் பண்புகள் எந்தெந்த உலாவி இயந்திரங்களில் பயன்படுத்த முடியும் அல்லது முடியாது என்பதை குறிக்கும் அட்டவணை.
 
-- <http://caniuse.com> - per-feature tables of support, e.g. to see which engines support modern cryptography functions: <http://caniuse.com/#feat=cryptography>.
-- <https://kangax.github.io/compat-table> - a table with language features and engines that support those or don't support.
+இந்த வளங்கள் அனைத்தும் தினந்தோறும் யதார்த்தத்தில் நாம் பயன்படுத்தக்கூடியவையாக இருக்கும், ஏனெனில் அவை நிரலாக்க மொழியின் விவரங்கள், பண்புகள் மற்றும் இதர மதிப்புமிக்க தகவல்களைக் கொண்டுள்ளன.
 
-All these resources are useful in real-life development, as they contain valuable information about language details, their support etc.
-
-Please remember them (or this page) for the cases when you need in-depth information about a particular feature.
+ஒரு குறிப்பிட்ட பண்பை பற்றிய ஆழமான தகவல்கள் தேவைப்படும்போது, மேலே குறிப்பிட்டுள்ள தகவல்களை (அல்லது இந்தப் பக்கத்தை)  நினைவில் கொள்ள வேண்டும்.
