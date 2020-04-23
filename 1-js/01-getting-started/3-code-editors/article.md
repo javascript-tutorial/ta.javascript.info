@@ -1,46 +1,52 @@
-# Code editors
+# குறியீடு திருத்திகள்
 
-A code editor is the place where programmers spend most of their time.
+ஒரு நிரலர்(programmer) தன்னுடைய அதிக நேரத்தை செலவிடும் இடம் குறியீடு திருத்தி(code editor) ஆகும்.
 
-There are two main types of code editors: IDEs and lightweight editors. Many people use one tool of each type.
+குறியீடு திருத்தியில் இரண்டு முக்கிய வகைகள் உள்ளன: ஐடிஇ(IDE)க்கள் மற்றும் இலகுரக திருத்திகள். ஒவ்வொரு வகையிலும் பலர் ஒரு கருவியைப் பயன்படுத்துகிறார்கள்.
 
-## IDE
+## ஐடிஇ(IDE)
 
-The term [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) (Integrated Development Environment) refers to a powerful editor with many features that usually operates on a "whole project." As the name suggests, it's not just an editor, but a full-scale "development environment."
+[ஐடிஇ] (https://en.wikipedia.org/wiki/Integrated_development_en Environment) (ஒருங்கிணைந்த மேம்பாட்டு சூழல்) என்பது "முழு திட்டப்பணியிலும்" பொதுவாக செயல்படும் பல பண்புகளைக் கொண்ட சக்திவாய்ந்த திருத்தியைக் குறிக்கிறது. அதன் பெயர் 
+குறிப்பிடுவது போல, இது ஒரு திருத்தி மட்டுமல்ல, முழு அளவிலான "மேம்பாட்டு சூழல்."
 
-An IDE loads the project (which can be many files), allows navigation between files, provides autocompletion based on the whole project (not just the open file), and integrates with a version management system (like [git](https://git-scm.com/)), a testing environment, and other "project-level" stuff.
+ஐடிஇ ஒரு திட்டத்தை மின்னேற்றுகிறது(இது பல கோப்புகளை உள்ளடக்கியதாக இருக்கலாம்), கோப்புகளுக்கு இடையில் வழிசெலுத்தலை அனுமதிக்கிறது, முழு திட்டத்தின் அடிப்படையில்  (திறந்த கோப்பு மட்டுமல்ல) தன்னியக்கத்தை வழங்குகிறது 
+மற்றும் பதிப்புரு மேலாண்மை அமைப்பு([git] (https: // git-scm.com/)), சோதனை சூழல் மற்றும் பிற "திட்ட-நிலை" தேவைகளுடன் ஒருங்கிணைக்கிறது.
 
-If you haven't selected an IDE yet, consider the following options:
+நீங்கள் இன்னும் ஒரு ஐடிஇ ஐத் தேர்ந்தெடுக்கவில்லை என்றால், பின்வரும் விருப்பங்களை கவனியுங்கள்:
 
-- [Visual Studio Code](https://code.visualstudio.com/) (cross-platform, free).
-- [WebStorm](http://www.jetbrains.com/webstorm/) (cross-platform, paid).
+- [விஷுவல் ஸ்டுடியோ கோட்(Visual Studio Code)](https://code.visualstudio.com/) (குறுக்கு-தளம்(cross-platform), இலவச வகை).
+- [வெப்ஸ்டோர்ம்(WebStorm)](http://www.jetbrains.com/webstorm/) (குறுக்கு-தளம், கட்டண வகை).
 
-For Windows, there's also "Visual Studio", not to be confused with "Visual Studio Code". "Visual Studio" is a paid and mighty Windows-only editor, well-suited for the .NET platform. It's also good at JavaScript. There's also a free version [Visual Studio Community](https://www.visualstudio.com/vs/community/).
+விண்டோஸைப்(Windows) பொறுத்தவரை, "விஷுவல் ஸ்டுடியோ"(Visual Studio) என்பதும் உள்ளது, "விஷுவல் ஸ்டுடியோ கோட்" உடன் குழப்பமடையக்கூடாது. "விஷுவல் ஸ்டுடியோ" என்பது கட்டணம் செலுத்தவேண்டிய, வலிமையான 
+விண்டோஸ்-இல் மட்டுமே இயங்கக்கூடிய திருத்தி, இது .நெட்(.NET) இயங்குதளத்திற்கு மிகவும் பொருத்தமானது. இது ஜாவாஸ்கிரிப்ட்-டிர்க்கும் பொருத்தமானது. இதன் இலவச பதிப்பும் உள்ளது [விஷுவல் ஸ்டுடியோ சமூகம்(Visual Studio Community)](https://www.visualstudio.com/vs/community/).
 
-Many IDEs are paid, but have a trial period. Their cost is usually negligible compared to a qualified developer's salary, so just choose the best one for you.
+பல ஐடிஇ-க்கள் கட்டண வகையை சேர்ந்தது, ஆனால் அவற்றிற்கு சோதனை காலம் உள்ளது. தகுதிவாய்ந்த டெவலப்பர்(Developer-உருவாக்குவோன்) சம்பளத்துடன் ஒப்பிடும்போது அவற்றின் செலவு பொதுவாக மிகக் குறைவு, எனவே 
+ உங்களுக்கான சிறந்த ஒன்றைத் தேர்வுசெய்க.
 
-## Lightweight editors
+## இலகுரக திருத்திகள்(Lightweight editors)
 
-"Lightweight editors" are not as powerful as IDEs, but they're fast, elegant and simple.
+"இலகுரக திருத்திகள்" ஐடிஇ-க்களைப் போல சக்திவாய்ந்தவை அல்ல, ஆனால் அவை வேகமான, நேர்த்தியான மற்றும் எளிமையானவை.
 
-They are mainly used to open and edit a file instantly.
+அவை முக்கியமாக ஒரு கோப்பை உடனடியாகத் திறக்க மற்றும் திருத்த பயன்படுகின்றன.
 
-The main difference between a "lightweight editor" and an "IDE" is that an IDE works on a project-level, so it loads much more data on start, analyzes the project structure if needed and so on. A lightweight editor is much faster if we need only one file.
+"இலகுரக திருத்திகள்" மற்றும் "ஐடிஇ" ஆகியவற்றுக்கு இடையேயான முக்கிய வேறுபாடு என்னவென்றால், ஒரு ஐடிஇ ஒரு திட்ட மட்டத்தில் செயல்படுகிறது, எனவே இது தொடக்கத்தில் அதிகமான தரவை மின்னேற்றுகிறது, தேவைப்பட்டால் திட்ட 
+கட்டமைப்பை பகுப்பாய்வு செய்கிறது மற்றும் பல. ஒரே ஒரு கோப்பு மட்டுமே தேவைப்படும் சூழலில் இலகுரக திருத்திகள் மிக வேகமாக செயல்படும்.
 
-In practice, lightweight editors may have a lot of plugins including directory-level syntax analyzers and autocompleters, so there's no strict border between a lightweight editor and an IDE.
+நடைமுறையில், இலகுரக திருத்திகளுக்கு அடைவு-நிலை தொடரியல் பகுப்பாய்விகள்(directory-level syntax analyzers) மற்றும் 
+தானியங்குநிரப்பிகள்(auto-completers) உள்ளிட்ட ஏராளமான செருகுநிரல்கள்(plugins) இருக்கின்றன, எனவே இலகுரக திருத்திகள் மற்றும் ஐடிஇ-க்களுக்கு இடையே குறிப்பிடத்தக்க எல்லை இல்லை.
 
-The following options deserve your attention:
+பின்வரும் விருப்பங்கள் உங்கள் கவனத்திற்கு தகுதியானவை:
 
-- [Atom](https://atom.io/) (cross-platform, free).
-- [Visual Studio Code](https://code.visualstudio.com/) (cross-platform, free).
-- [Sublime Text](http://www.sublimetext.com) (cross-platform, shareware).
-- [Notepad++](https://notepad-plus-plus.org/) (Windows, free).
-- [Vim](http://www.vim.org/) and [Emacs](https://www.gnu.org/software/emacs/) are also cool if you know how to use them.
+- [Atom](https://atom.io/) (குறுக்கு-தளம்(cross-platform), இலவச வகை).
+- [விஷுவல் ஸ்டுடியோ கோட்(Visual Studio Code)](https://code.visualstudio.com/) (குறுக்கு-தளம், இலவச வகை).
+- [சப்லைம் டெக்ஸ்ட்(Sublime Text)](http://www.sublimetext.com) (குறுக்கு-தளம், பகிர் மென்பொருள்(shareware)).
+- [நோட்பேட்++(Notepad++)](https://notepad-plus-plus.org/) (விண்டோஸ்(Windows), இலவச வகை).
+- [விம்(Vim)](http://www.vim.org/) மற்றும் [எமக்ஸ்(Emacs)](https://www.gnu.org/software/emacs/) அவற்றை எவ்வாறு பயன்படுத்துவது என்பது உங்களுக்குத் தெரிந்தால் அவை மிகச் சரியான தேர்வாக இருக்கும்.
 
-## Let's not argue
+## வாதிட வேண்டாமே
 
-The editors in the lists above are those that either I or my friends whom I consider good developers have been using for a long time and are happy with.
+மேலேயுள்ள பட்டியல்களில் உள்ள திருத்திகளை, நான் மற்றும் நல்ல டெவெலப்பர்களாக நான் கருதும் எனது நண்பர்கள் நீண்ட காலமாகப் பயன்படுத்தி அதனால் மகிழ்ச்சி அடைந்து கொண்டிருக்கிறோம்.
 
-There are other great editors in our big world. Please choose the one you like the most.
+இந்த உலகத்தில் இதைவிடச் சிறந்த திருத்திகளும் உள்ளன. நீங்கள் மிகவும் விரும்பும் ஒன்றைத் தேர்ந்தெடுக்கவும்.
 
-The choice of an editor, like any other tool, is individual and depends on your projects, habits, and personal preferences.
+ஒரு திருத்தியை தேர்வு செய்வது, வேறு எந்த கருவியையும் போலவே, தனிப்பட்டது மற்றும் உங்கள் திட்டங்கள், பழக்கவழக்கங்கள் மற்றும் தனிப்பட்ட விருப்பங்களைப் பொறுத்தது.
