@@ -1,17 +1,17 @@
-# Hello, world!
+# வணக்கம், உலகமே!
 
-This part of the tutorial is about core JavaScript, the language itself.
+டுடோரியலின் இந்த பகுதி ஜாவாஸ்கிரிப்ட் என்கிற நிரலாக்க மொழியின் மைய்யக் கருத்துகளை பற்றியது.
 
-But we need a working environment to run our scripts and, since this book is online, the browser is a good choice. We'll keep the amount of browser-specific commands (like `alert`) to a minimum so that you don't spend time on them if you plan to concentrate on another environment (like Node.js). We'll focus on JavaScript in the browser in the [next part](/ui) of the tutorial.
+ஆனால் இந்த ஸ்கிரிப்ட்களை(அச்சுருஎழுத்து) இயக்க ஒரு செயற்பாட்டுத்தளம்(working environment) தேவைப்படுகிறது. மேலும் இந்த புத்தகம் "நேரடி இணையதளத்தில்"(online) இருப்பதால், உலாவி ஒரு சிறந்த தேர்வாகும். எனினும் உலாவிக்கு மட்டுமே பயன்படுத்தக்கூடிய கட்டளைகளின் அளவை (`alert` போன்றவை) குறைந்தபட்சமாக உபயோகப்படுத்தியுள்ளோம். இதன்மூலம் நீங்கள் மற்றொரு சூழலில் (Node.js போன்றவை) கவனம் செலுத்த திட்டமிட்டால் அவற்றில் நேரத்தை செலவிட வேண்டியதில்லை. டுடோரியலின் [அடுத்த பகுதி](/ui) -இல் ஜாவாஸ்கிரிப்ட்-ஐ  உலாவியில் பயன்படுத்துவது பற்றி கவனம் செலுத்துவோம்.
 
-So first, let's see how we attach a script to a webpage. For server-side environments (like Node.js), you can execute the script with a command like `"node my.js"`.
+எனவே முதலில், ஒரு வலைப்பக்கத்தில் ஒரு ஸ்கிரிப்டை எவ்வாறு இணைப்பது என்று பார்ப்போம். வழங்கி-உழி(Server-side) சூழல்களுக்கு (Node.js போன்றவை), நீங்கள் `"node my.js"` போன்ற கட்டளையுடன் ஸ்கிரிப்டை இயக்கலாம்.
 
 
-## The "script" tag
+## "ஸ்கிரிப்ட்" (script) என்ற குறிச்சொல்
 
-JavaScript programs can be inserted into any part of an HTML document with the help of the `<script>` tag.
+ஜாவாஸ்கிரிப்ட் நிரல்களை ஒரு HTML ஆவணத்தின் எந்தப் பகுதியிலும் `<script>` குறிச்சொல்லின் உதவியுடன் செருகலாம்.
 
-For instance:
+உதாரணமாக:
 
 ```html run height=100
 <!DOCTYPE HTML>
@@ -19,15 +19,15 @@ For instance:
 
 <body>
 
-  <p>Before the script...</p>
+  <p>ஸ்கிரிப்டுக்கு முன்...</p>
 
 *!*
   <script>
-    alert( 'Hello, world!' );
+    alert( 'வணக்கம், உலகமே!' );
   </script>
 */!*
 
-  <p>...After the script.</p>
+  <p>...ஸ்கிரிப்டுக்குப் பிறகு.</p>
 
 </body>
 
@@ -35,24 +35,24 @@ For instance:
 ```
 
 ```online
-You can run the example by clicking the "Play" button in the right-top corner of the box above.
+மேலே உள்ள பெட்டியின் வலது மேல் மூலையில் உள்ள "இயக்கு" (Play) பொத்தானைக் கிளிக் செய்வதன் மூலம் உதாரணத்தை இயக்கலாம்.
 ```
 
-The `<script>` tag contains JavaScript code which is automatically executed when the browser processes the tag.
+`<script>` குறிச்சொல் ஜாவாஸ்கிரிப்ட் குறியீட்டைக் கொண்டுள்ளது, இது உலாவி குறிச்சொல்லை செயலாக்கும்போது தானாகவே செயல்படுத்தப்படும்.
 
 
-## Modern markup
+## நவீன குறிப்பான்கள்
 
-The `<script>` tag has a few attributes that are rarely used nowadays but can still be found in old code:
+`<script>` குறிச்சொல் சில பண்புகளை கொண்டுள்ளது, அவை இப்போதெல்லாம் அரிதாகவே பயன்படுத்தப்படுகின்றன, ஆனால் அவை இன்றும் பழைய குறியீடுகளில் காணப்படுகின்றன:
 
-The `type` attribute: <code>&lt;script <u>type</u>=...&gt;</code>
-: The old HTML standard, HTML4, required a script to have a `type`. Usually it was `type="text/javascript"`. It's not required anymore. Also, the modern HTML standard totally changed the meaning of this attribute. Now, it can be used for JavaScript modules. But that's an advanced topic, we'll talk about modules in another part of the tutorial.
+`type` பண்பு: <code>&lt;script <u>type</u>=...&gt;</code>
+: பழைய HTML தரநிலையான HTML4 க்கு ஸ்கிரிப்ட்டுடன் `type` என்ற பண்பு இருக்க வேண்டும். பொதுவாக இது `type ="text/javascript"` என்று குறிப்பிடப்படும். இது இனி தேவையில்லை. மேலும், நவீன HTML தரநிலை இந்த பண்புக்கூறின் பொருளை முற்றிலும் மாற்றி அமைத்துள்ளது. இப்போது, இது ஜாவாஸ்கிரிப்ட் தொகுதிகளுக்கு(Modules) பயன்படுத்தலாம். ஆனால் அது ஒரு மேம்பட்ட தலைப்பு, டுடோரியலின் மற்றொரு பகுதியில் இந்த தொகுதிகள் பற்றி பார்ப்போம்.
 
-The `language` attribute: <code>&lt;script <u>language</u>=...&gt;</code>
-: This attribute was meant to show the language of the script. This attribute no longer makes sense because JavaScript is the default language. There is no need to use it.
+`language` பண்பு: <code>&lt;script <u>language</u>=...&gt;</code>
+: இந்த பண்பு ஸ்கிரிப்டின் மொழியைக் காண்பிப்பதற்காக இருந்தது. ஜாவாஸ்கிரிப்ட் இயல்புநிலை மொழியாக இருப்பதால் இந்த பண்புக்கூறு இனி தேவையில்லை. அதைப் பயன்படுத்த வேண்டிய அவசியமில்லை.
 
-Comments before and after scripts.
-: In really ancient books and guides, you may find comments inside `<script>` tags, like this:
+ஸ்கிரிப்டுகளுக்கு முன்னும் பின்னும் கருத்துரைகள்.
+: உண்மையில் பண்டைய புத்தகங்கள் மற்றும் வழிகாட்டிகளில், `<script>` குறிச்சொற்களுக்குள் இதுபோன்ற கருத்துரைகளை நீங்கள் காணலாம்:
 
     ```html no-beautify
     <script type="text/javascript"><!--
@@ -60,28 +60,28 @@ Comments before and after scripts.
     //--></script>
     ```
 
-    This trick isn't used in modern JavaScript. These comments hide JavaScript code from old browsers that didn't know how to process the `<script>` tag. Since browsers released in the last 15 years don't have this issue, this kind of comment can help you identify really old code.
+    இந்த தந்திரம் நவீன ஜாவாஸ்கிரிப்டில் பயன்படுத்தப்படவில்லை. இந்த கருத்துரைகள் பழைய உலாவிகளில் இருந்து ஜாவாஸ்கிரிப்ட் குறியீட்டை மறைக்கின்றன, மற்றும் அவைகளுக்கு இப்படிப்பட்ட `<script>` குறிச்சொல்லை எவ்வாறு செயலாக்குவது என்று தெரிவதில்லை. கடந்த 15 ஆண்டுகளில் வெளியிடப்பட்ட உலாவிகளில் இந்த சிக்கல் இல்லை என்பதால், இந்த வகையான கருத்து உண்மையில் பழைய குறியீட்டை அடையாளம் காண உதவும்.
 
 
-## External scripts
+## வெளிப்புற ஸ்கிரிப்ட்கள்
 
-If we have a lot of JavaScript code, we can put it into a separate file.
+நம்மிடம் நிறைய ஜாவாஸ்கிரிப்ட் குறியீடுகள் இருந்தால், அதை ஒரு தனி கோப்பில் வைக்கலாம்.
 
-Script files are attached to HTML with the `src` attribute:
+ஸ்கிரிப்ட் கோப்புகள் HTML உடன் `src` பண்பு கொண்டு இணைக்கப்பட்டுள்ளன:
 
 ```html
 <script src="/path/to/script.js"></script>
 ```
 
-Here, `/path/to/script.js` is an absolute path to the script from the site root. One can also provide a relative path from the current page. For instance, `src="script.js"` would mean a file `"script.js"` in the current folder.
+இங்கே, `/path/to/script.js` என்பது தள மூலத்திலிருந்து ஸ்கிரிப்டுக்கு ஒரு முழுமையான பாதை ஆகும். ஒருவர் ஒரு பக்கத்தில் இருந்து, அந்த பக்கம் எந்த உறையில் உள்ளதோ அந்த உறையில் உள்ள மற்ற பக்கங்களை தொடர்புப் பாதையாகவும் குறிப்பிடலாம். உதாரணமாக, `src ="script.js"` என்பது தற்போதைய கோப்புறையில் உள்ள `"script.js"` என்ற கோப்பை குறிக்கும்.
 
-We can give a full URL as well. For instance:
+அதே போன்று ஒரு முழு URL ஐயும் நம்மால் கொடுக்க முடியும். உதாரணமாக:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.2.0/lodash.js"></script>
 ```
 
-To attach several scripts, use multiple tags:
+பல ஸ்கிரிப்ட்களை இணைக்க, பல குறிச்சொற்களைப் பயன்படுத்தவும்:
 
 ```html
 <script src="/js/script1.js"></script>
@@ -90,29 +90,29 @@ To attach several scripts, use multiple tags:
 ```
 
 ```smart
-As a rule, only the simplest scripts are put into HTML. More complex ones reside in separate files.
+ஒரு விதியாக, எளிமையான ஸ்கிரிப்ட்கள் மட்டுமே HTML இல் வைக்கப்படுகின்றன. மிகவும் சிக்கலானவை தனித்தனி கோப்புகளில் வைக்கப்படும்.
 
-The benefit of a separate file is that the browser will download it and store it in its [cache](https://en.wikipedia.org/wiki/Web_cache).
+தனி கோப்பாக வைப்பதன் நன்மை என்னவென்றால், உலாவி அதை பதிவிறக்கம் செய்து அதனை [தற்காலிக சேமிப்பில்(cache)](https://en.wikipedia.org/wiki/Web_cache) சேமிக்கும்.
 
-Other pages that reference the same script will take it from the cache instead of downloading it, so the file is actually downloaded only once.
+அதே ஸ்கிரிப்டைக் குறிப்பிடும் பிற பக்கங்கள் அதைப் பதிவிறக்குவதற்குப் பதிலாக தற்காலிக சேமிப்பிலிருந்து எடுக்கும், எனவே கோப்பு உண்மையில் ஒரு முறை மட்டுமே பதிவிறக்கப்படும்.
 
-That reduces traffic and makes pages faster.
+இது வலை போக்குவரத்தை குறைக்கிறது மற்றும் பக்கங்களை வேகமாக்குகிறது.
 ```
 
-````warn header="If `src` is set, the script content is ignored."
-A single `<script>` tag can't have both the `src` attribute and code inside.
+````warn header="If `src` அமைக்கப்பட்டால், ஸ்கிரிப்ட் உள்ளடக்கம் புறக்கணிக்கப்படும்."
+ஒற்றை `<script>` குறிச்சொல்லுக்குள் `src` பண்புக்கூறு மற்றும் குறியீடு(codes) இரண்டையும் கொண்டிருக்க முடியாது.
 
-This won't work:
+கீழே உள்ள ஸ்கிரிப்ட் இயங்காது:
 
 ```html
 <script *!*src*/!*="file.js">
-  alert(1); // the content is ignored, because src is set
+  alert(1); // src அமைக்கப்பட்டிருப்பதால் உள்ளடக்கம் புறக்கணிக்கப்படுகிறது
 </script>
 ```
 
-We must choose either an external `<script src="…">` or a regular `<script>` with code.
+நாம் வெளிப்புற `<script src ="… ">` அல்லது குறியீட்டைக் கொண்ட வழக்கமான `<script>` ஐ தேர்வு செய்ய வேண்டும்.
 
-The example above can be split into two scripts to work:
+மேலே உள்ள உதாரணம்  வேலை செய்ய அவற்றை இரண்டு ஸ்கிரிப்ட்களாக பிரிக்கலாம்:
 
 ```html
 <script src="file.js"></script>
@@ -122,11 +122,11 @@ The example above can be split into two scripts to work:
 ```
 ````
 
-## Summary
+## சுருக்கம்
 
-- We can use a `<script>` tag to add JavaScript code to a page.
-- The `type` and `language` attributes are not required.
-- A script in an external file can be inserted with `<script src="path/to/script.js"></script>`.
+- ஒரு பக்கத்திற்கு ஜாவாஸ்கிரிப்ட் குறியீட்டைச் சேர்க்க `<script>` குறிச்சொல்லைப் பயன்படுத்தலாம்.
+- `type` மற்றும்` language` பண்புக்கூறுகள் தேவையில்லை.
+- வெளிப்புற கோப்பில் உள்ள ஒரு ஸ்கிரிப்டை செருக `<script src ="path/to/script.js"></script>` என்று குறியிடவேண்டும்.
 
 
-There is much more to learn about browser scripts and their interaction with the webpage. But let's keep in mind that this part of the tutorial is devoted to the JavaScript language, so we shouldn't distract ourselves with browser-specific implementations of it. We'll be using the browser as a way to run JavaScript, which is very convenient for online reading, but only one of many.
+உலாவி, ஸ்கிரிப்டுகள் மற்றும் வலைப்பக்கத்துடனான அவற்றின் தொடர்பு பற்றி  அறியவேண்டியவை இன்னும் நிறைய இருக்கின்றது. ஆனால் டுடோரியலின் இந்த பகுதி ஜாவாஸ்கிரிப்ட் மொழிக்கு அர்ப்பணிக்கப்பட்டுள்ளது என்பதை நினைவில் கொள்வோம், எனவே உலாவி-குறிப்பிட்ட செயலாக்கங்களுடன் நாம் திசைதிருப்பக்கூடாது. ஜாவாஸ்கிரிப்டை இயக்குவதற்கான ஒரு வழியாக உலாவியைப் பயன்படுத்துவோம், இது நேரடி இணையதள வாசிப்புக்கு மிகவும் வசதியானது, அதேபோல் இது பல்வேறு முறைகளில் நமக்கு உகந்த ஒரு முறையாகும்.
