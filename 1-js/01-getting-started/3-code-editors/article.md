@@ -37,7 +37,7 @@
 
 பின்வரும் விருப்பங்கள் உங்கள் கவனத்திற்கு தகுதியானவை:
 
-- [Atom](https://atom.io/) (குறுக்கு-தளம்(cross-platform), இலவச வகை).
+- [ஆடெம்(Atom)](https://atom.io/) (குறுக்கு-தளம்(cross-platform), இலவச வகை).
 - [விஷுவல் ஸ்டுடியோ கோட்(Visual Studio Code)](https://code.visualstudio.com/) (குறுக்கு-தளம், இலவச வகை).
 - [சப்லைம் டெக்ஸ்ட்(Sublime Text)](http://www.sublimetext.com) (குறுக்கு-தளம், பகிர் மென்பொருள்(shareware)).
 - [நோட்பேட்++(Notepad++)](https://notepad-plus-plus.org/) (விண்டோஸ்(Windows), இலவச வகை).
