@@ -13,14 +13,23 @@
 
 கிட்டத்தட்ட தர அளவுபடுத்தப்பட்ட ("நிலை 3" என்று அழைக்கப்படுகிறது) மற்றும் புதிய முன்னணி பண்புகளைப் (bleeding-edge features) பற்றி படிக்க, இங்கே உள்ள புத்தாய்வுத்திட்டங்களை <https://github.com/tc39/proposals> பார்க்கவும். 
 
+<<<<<<< HEAD
 மேலும், நீங்கள் உலாவிக்காக (browser) உருவாக்குகிறீர்கள் என்றால், இப்பயிற்சியின் [இரண்டாம் பாகம் (second part)](info:browser-environment) இல் மற்ற விவரக்குறிப்புகள் உள்ளன.
+=======
+Also, if you're developing for the browser, then there are other specifications covered in the [second part](info:browser-environment) of the tutorial.
+>>>>>>> 8d04d0d2db97276dbb2b451c30a7bd3e05d65831
 
 ## கையேடுகள்
 
+<<<<<<< HEAD
 - **எம்.டி.என்(MDN) (மொஸில்லா-Mozilla) ஜாவாஸ்கிரிப்ட் குறிப்பு** எடுத்துக்காட்டுகளுடன் கூடிய மற்றும் பிற தகவல்களை கொண்டுள்ள ஒரு கையேடு ஆகும். தனிப்பட்ட நிரலாக்க மொழி செயற்கூறுகள், முறைகள் (methods) மற்றும் பிற ஆழமான தகவல்களைத் தெரிந்து கொள்வது மிகவும் நல்லது.
+=======
+- **MDN (Mozilla) JavaScript Reference** is the main manual with examples and other information. It's great to get in-depth information about individual language functions, methods etc.
+>>>>>>> 8d04d0d2db97276dbb2b451c30a7bd3e05d65831
 
     அவைகளை இங்கே காணலாம் <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference>.
 
+<<<<<<< HEAD
     இருப்பினும், அதற்கு பதிலாக இணைய தேடலைப் பயன்படுத்துவது சிறந்ததாக கருதப்படுகிறது. வினவலில் "MDN [term]" ஐப் பயன்படுத்தவும், எடுத்துக்காட்டாக `parseInt` என்ற செயற்கூறைத் தேட <https://google.com/search?q=MDN+parseInt>  இவ்வாறு குறிப்பிடவும்.
 
 - **எம்.எஸ்.டி.என் (MSDN)** - என்ற மைக்ரோசாஃப்ட் கையேடு, ஜாவாஸ்கிரிப்ட் (பெரும்பாலும் JScript என குறிப்பிடப்படுகிறது) உட்பட பல தகவல்களைக் கொண்டுள்ளது. இன்டர்நெட் எக்ஸ்ப்ளோரரை பற்றி குறிப்பிட்ட ஏதாவது ஒன்றை தெரிந்துகொள்ள, இங்கே செல்வது நல்லது: <http://msdn.microsoft.com/>.
@@ -28,6 +37,9 @@
     மேலும், "RegExp MSDN" அல்லது "RegExp MSDN jscript" போன்ற சொற்றொடர்களுடன் இணைய தேடலைப் பயன்படுத்தலாம்.
 
 ## ஏற்புடைய அட்டவணைகள் (Compatibility tables)
+=======
+Although, it's often best to use an internet search instead. Just use "MDN [term]" in the query, e.g. <https://google.com/search?q=MDN+parseInt> to search for `parseInt` function.
+>>>>>>> 8d04d0d2db97276dbb2b451c30a7bd3e05d65831
 
 ஜாவாஸ்கிரிப்ட் ஒரு வளரும் மொழி, புதிய அம்சங்கள் தொடர்ந்து சேர்க்கப்படுகின்றன.
 
