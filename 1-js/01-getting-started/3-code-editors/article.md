@@ -31,11 +31,18 @@
 
 பின்வரும் விருப்பங்கள் உங்கள் கவனத்திற்கு தகுதியானவை:
 
+<<<<<<< HEAD
 - [ஆடெம்(Atom)](https://atom.io/) (குறுக்கு-தளம்(cross-platform), இலவச வகை).
 - [விஷுவல் ஸ்டுடியோ கோட்(Visual Studio Code)](https://code.visualstudio.com/) (குறுக்கு-தளம், இலவச வகை).
 - [சப்லைம் டெக்ஸ்ட்(Sublime Text)](http://www.sublimetext.com) (குறுக்கு-தளம், பகிர் மென்பொருள்(shareware)).
 - [நோட்பேட்++(Notepad++)](https://notepad-plus-plus.org/) (விண்டோஸ்(Windows), இலவச வகை).
 - [விம்(Vim)](http://www.vim.org/) மற்றும் [எமக்ஸ்(Emacs)](https://www.gnu.org/software/emacs/) அவற்றை எவ்வாறு பயன்படுத்துவது என்பது உங்களுக்குத் தெரிந்தால் அவை மிகச் சரியான தேர்வாக இருக்கும்.
+=======
+- [Atom](https://atom.io/) (cross-platform, free).
+- [Sublime Text](http://www.sublimetext.com) (cross-platform, shareware).
+- [Notepad++](https://notepad-plus-plus.org/) (Windows, free).
+- [Vim](http://www.vim.org/) and [Emacs](https://www.gnu.org/software/emacs/) are also cool if you know how to use them.
+>>>>>>> 71da17e5960f1c76aad0d04d21f10bc65318d3f6
 
 ## வாதிட வேண்டாமே
 
