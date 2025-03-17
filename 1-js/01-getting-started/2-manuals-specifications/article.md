@@ -1,7 +1,11 @@
 
 # கையேடுகள் மற்றும் திட்ட விவரம்
 
+<<<<<<< HEAD
 இந்த புத்தகம் ஒரு *தனிமுறை கல்வி குறிப்பு* ஆகும். இது படிப்படியாக நிரலாக்க மொழியைக் (Programming Language) கற்றுக்கொள்ள உங்களுக்கு உதவுவதை நோக்கமாகக் கொண்டுள்ளது. நீங்கள் அடிப்படைகளை அறிந்தவுடன், உங்களுக்கு பிற மூல பாடங்கள் தேவைப்படும்.
+=======
+This book is a *tutorial*. It aims to help you gradually learn the language. But once you're familiar with the basics, you'll need other resources.
+>>>>>>> 3d7abb9cc8fa553963025547717f06f126c449b6
 
 ## திட்ட விவரம் (Specification)
 
@@ -9,14 +13,23 @@
 
 அவ்வாறு முறைப்படுத்தப்பட்டிருந்தாலும், நேரடியாக புரிந்துகொள்ள கடினமாக இருக்கும். எனவே, நிரலாக்க மொழி விவரங்களைப் பற்றிய மிகவும் நம்பகமான தகவல்களை தெரிந்து கொள்ள திட்ட விவர குறிப்புகளே சரியான இடமாகும். ஆனால் இவற்றை அன்றாட பயன்பாட்டிற்கு பயன்படுத்த முடியாது.
 
+<<<<<<< HEAD
 ஒவ்வொரு ஆண்டும் ஒரு புதிய திட்ட விவரப் பதிப்புரு (version) வெளியிடப்படுகிறது. இந்த வெளியீடுகளுக்கு இடையில், அண்மை கால திட்ட விவர வரைவை காண <https://tc39.es/ecma262/> இங்கே செல்லவும்.
+=======
+A new specification version is released every year. Between these releases, the latest specification draft is at <https://tc39.es/ecma262/>.
+>>>>>>> 3d7abb9cc8fa553963025547717f06f126c449b6
 
 கிட்டத்தட்ட தர அளவுபடுத்தப்பட்ட ("நிலை 3" என்று அழைக்கப்படுகிறது) மற்றும் புதிய முன்னணி பண்புகளைப் (bleeding-edge features) பற்றி படிக்க, இங்கே உள்ள புத்தாய்வுத்திட்டங்களை <https://github.com/tc39/proposals> பார்க்கவும். 
 
+<<<<<<< HEAD
 மேலும், நீங்கள் உலாவிக்காக (browser) உருவாக்குகிறீர்கள் என்றால், இப்பயிற்சியின் [இரண்டாம் பாகம் (second part)](info:browser-environment) இல் மற்ற விவரக்குறிப்புகள் உள்ளன.
+=======
+Also, if you're developing for the browser, then there are other specifications covered in the [second part](info:browser-environment) of the tutorial.
+>>>>>>> 3d7abb9cc8fa553963025547717f06f126c449b6
 
 ## கையேடுகள்
 
+<<<<<<< HEAD
 - **எம்.டி.என்(MDN) (மொஸில்லா-Mozilla) ஜாவாஸ்கிரிப்ட் குறிப்பு** எடுத்துக்காட்டுகளுடன் கூடிய மற்றும் பிற தகவல்களை கொண்டுள்ள ஒரு கையேடு ஆகும். தனிப்பட்ட நிரலாக்க மொழி செயற்கூறுகள், முறைகள் (methods) மற்றும் பிற ஆழமான தகவல்களைத் தெரிந்து கொள்வது மிகவும் நல்லது.
 
     அவைகளை இங்கே காணலாம் <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference>.
@@ -28,6 +41,13 @@
     மேலும், "RegExp MSDN" அல்லது "RegExp MSDN jscript" போன்ற சொற்றொடர்களுடன் இணைய தேடலைப் பயன்படுத்தலாம்.
 
 ## ஏற்புடைய அட்டவணைகள் (Compatibility tables)
+=======
+- **MDN (Mozilla) JavaScript Reference** is the main manual with examples and other information. It's great to get in-depth information about individual language functions, methods etc.
+
+    You can find it at <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference>.
+
+Although, it's often best to use an internet search instead. Just use "MDN [term]" in the query, e.g. <https://google.com/search?q=MDN+parseInt> to search for the `parseInt` function.
+>>>>>>> 3d7abb9cc8fa553963025547717f06f126c449b6
 
 ஜாவாஸ்கிரிப்ட் ஒரு வளரும் மொழி, புதிய அம்சங்கள் தொடர்ந்து சேர்க்கப்படுகின்றன.
 
@@ -36,6 +56,15 @@
 - <http://caniuse.com> - நவீன குறியாக்கவியல் செயற்கூறுகளுக்கு (cryptography functions) ஏற்புடைய உலாவி இயந்திரத்தை கண்டறிய: <http://caniuse.com/#feat=cryptography>.
 - <https://kangax.github.io/compat-table> - நிரலாக்க மொழியின் பண்புகள் எந்தெந்த உலாவி இயந்திரங்களில் பயன்படுத்த முடியும் அல்லது முடியாது என்பதை குறிக்கும் அட்டவணை.
 
+<<<<<<< HEAD
 இந்த வளங்கள் அனைத்தும் தினந்தோறும் யதார்த்தத்தில் நாம் பயன்படுத்தக்கூடியவையாக இருக்கும், ஏனெனில் அவை நிரலாக்க மொழியின் விவரங்கள், பண்புகள் மற்றும் இதர மதிப்புமிக்க தகவல்களைக் கொண்டுள்ளன.
 
 ஒரு குறிப்பிட்ட பண்பை பற்றிய ஆழமான தகவல்கள் தேவைப்படும்போது, மேலே குறிப்பிட்டுள்ள தகவல்களை (அல்லது இந்தப் பக்கத்தை) நினைவில் கொள்ள வேண்டும்.
+=======
+- <https://caniuse.com> - per-feature tables of support, e.g. to see which engines support modern cryptography functions: <https://caniuse.com/#feat=cryptography>.
+- <https://kangax.github.io/compat-table> - a table with language features and engines that support those or don't support.
+
+All these resources are useful in real-life development, as they contain valuable information about language details, their support, etc.
+
+Please remember them (or this page) for the cases when you need in-depth information about a particular feature.
+>>>>>>> 3d7abb9cc8fa553963025547717f06f126c449b6
