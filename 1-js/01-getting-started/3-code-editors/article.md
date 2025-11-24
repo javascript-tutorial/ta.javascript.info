@@ -12,8 +12,13 @@
 
 நீங்கள் இன்னும் ஒரு ஐடிஇ ஐத் தேர்ந்தெடுக்கவில்லை என்றால், பின்வரும் விருப்பங்களை கவனியுங்கள்:
 
+<<<<<<< HEAD
 - [விஷுவல் ஸ்டுடியோ கோட்(Visual Studio Code)](https://code.visualstudio.com/) (குறுக்கு-தளம்(cross-platform), இலவச வகை).
 - [வெப்ஸ்டோர்ம்(WebStorm)](http://www.jetbrains.com/webstorm/) (குறுக்கு-தளம், கட்டண வகை).
+=======
+- [Visual Studio Code](https://code.visualstudio.com/) (cross-platform, free).
+- [WebStorm](https://www.jetbrains.com/webstorm/) (cross-platform, paid).
+>>>>>>> d78b01e9833009fab534462e05c03cffc51bf0e3
 
 விண்டோஸைப்(Windows) பொறுத்தவரை, "விஷுவல் ஸ்டுடியோ"(Visual Studio) என்பதும்  "விஷுவல் ஸ்டுடியோ கோட்" என்பதும் வெவ்வேறானது. "விஷுவல் ஸ்டுடியோ" என்பது கட்டணம் செலுத்தவேண்டிய மற்றும் வலிமையான விண்டோஸ்-இல் மட்டுமே இயங்கக்கூடிய தொகுப்பி, இது .நெட்(.NET) இயங்குதளத்திற்கு மிகவும் பொருத்தமானது. இது ஜாவாஸ்கிரிப்ட்-டிற்கும் பொருத்தமானது. இதன் இலவச பதிப்பும் உள்ளது [விஷுவல் ஸ்டுடியோ சமூகம்(Visual Studio Community)](https://www.visualstudio.com/vs/community/).
 
@@ -29,6 +34,7 @@
 
 நடைமுறையில், இலகுரக தொகுப்பிகளுக்கு அடைவு-நிலை தொடரியல் பகுப்பாய்விகள்(directory-level syntax analyzers) மற்றும் தானியங்கு நிரப்பிகள்(auto-completers) உள்ளிட்ட ஏராளமான செருகு நிரல்கள்(plugins) இருக்கின்றன, எனவே இலகுரக தொகுப்பிகள் மற்றும் ஐடிஇ-க்களுக்கு இடையே குறிப்பிடத்தக்க எல்லை என்பது இல்லை.
 
+<<<<<<< HEAD
 பின்வரும் விருப்பங்கள் உங்கள் கவனத்திற்கு தகுதியானவை:
 
 - [ஆடெம்(Atom)](https://atom.io/) (குறுக்கு-தளம்(cross-platform), இலவச வகை).
@@ -36,6 +42,13 @@
 - [சப்லைம் டெக்ஸ்ட்(Sublime Text)](http://www.sublimetext.com) (குறுக்கு-தளம், பகிர் மென்பொருள்(shareware)).
 - [நோட்பேட்++(Notepad++)](https://notepad-plus-plus.org/) (விண்டோஸ்(Windows), இலவச வகை).
 - [விம்(Vim)](http://www.vim.org/) மற்றும் [எமக்ஸ்(Emacs)](https://www.gnu.org/software/emacs/) அவற்றை எவ்வாறு பயன்படுத்துவது என்பது உங்களுக்குத் தெரிந்தால் அவை மிகச் சரியான தேர்வாக இருக்கும்.
+=======
+There are many options, for instance:
+
+- [Sublime Text](https://www.sublimetext.com/) (cross-platform, shareware).
+- [Notepad++](https://notepad-plus-plus.org/) (Windows, free).
+- [Vim](https://www.vim.org/) and [Emacs](https://www.gnu.org/software/emacs/) are also cool if you know how to use them.
+>>>>>>> d78b01e9833009fab534462e05c03cffc51bf0e3
 
 ## வாதிட வேண்டாமே
 
@@ -43,4 +56,13 @@
 
 இந்த உலகத்தில் இதைவிடச் சிறந்த தொகுப்பிகளும் உள்ளன. நீங்கள் மிகவும் விரும்பும் ஒன்றைத் தேர்ந்தெடுக்கவும்.
 
+<<<<<<< HEAD
 ஒரு தொகுப்பியை தேர்வு செய்வது, வேறு எந்த கருவியையும் போலவே, தனிப்பட்டது மற்றும் உங்கள் திட்டங்கள், பழக்கவழக்கங்கள் மற்றும் தனிப்பட்ட விருப்பங்களைப் பொறுத்தது.
+=======
+The choice of an editor, like any other tool, is individual and depends on your projects, habits, and personal preferences.
+
+The author's personal opinion:
+
+- I'd use [Visual Studio Code](https://code.visualstudio.com/) if I develop mostly frontend.
+- Otherwise, if it's mostly another language/platform and partially frontend, then consider other editors, such as XCode (Mac), Visual Studio (Windows) or Jetbrains family (Webstorm, PHPStorm, RubyMine etc, depending on the language).
+>>>>>>> d78b01e9833009fab534462e05c03cffc51bf0e3
